@@ -7,6 +7,7 @@
 
 class Date {
    public:
+   	Donothing();
 	Date(); 						// constructor
 	Date(int dy, int mn, int yr);	// constructor with parameters
 	~Date();						// destructor

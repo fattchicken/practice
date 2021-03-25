@@ -12,6 +12,10 @@ Date::Date(int dy, int mn, int yr) { // Constructor with parameters
     setDay(dy);
     setYear(yr);
 }
+
+Date::Donotning(){
+	
+}
 Date::Date() {
     cout << "Default constructor called" << endl;
     month = day = year = 1; // Initialize data members
